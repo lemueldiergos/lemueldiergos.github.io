@@ -1,0 +1,58 @@
+{
+    "Product_Name": [
+        "Nero (Secre Swallowtail) - Anime Black Clover mini Figurine",
+        "Shirakami Fubuki - Miteiru (Hololive JP) Mini Figurine",
+        "Usada Pekora - Rabbit (Hololive JP) Mini Figurine",
+        "Hamsaburou and Hamjirou (Himouto Umaru-Chan) - Mini Figurine",
+        "Totoro - My Neighbor Totoro (Studio Ghibli) Mini Figurine",
+        "Usada Pekora - Pekobank (Hololive JP) | 3D Printed Coinbank"
+    ],
+    
+    "image":        [
+        "assets/shop.photo/nero.jpg",
+        "assets/shop.photo/miteiru.jpg",
+        "assets/shop.photo/pekora.jpg",
+        "assets/shop.photo/umaru.jpg",
+        "assets/shop.photo/totoro.jpg",
+        "assets/shop.photo/coinbank pekora2.jpg"
+    ],
+
+    "Price":        [
+        "₱400.00",
+        "₱350.00",
+        "₱250.00",
+        "₱249.00",
+        "₱289.00",
+        "₱550.00"
+    ],
+
+    "Status":       [
+        0,  
+        1,
+        0,
+        1,
+        1,
+        1
+
+    ],
+    
+    "sold_Count":   [
+        3,
+        0,
+        1,
+        0,
+        0,
+        1
+    ],
+
+    "shop_link": [
+        "https://shopee.ph/Nero-(Secre-Swallowtail)-Anime-Black-Clover-mini-Figurine-i.143141292.7887111139",
+        "https://shopee.ph/Shirakami-Fubuki-Miteiru-(Hololive-JP)-Mini-Figurine-3D-Printed-i.143141292.7993700655",
+        "https://shopee.ph/Usada-Pekora-Rabbit-(Hololive-JP)-Mini-Figurine-3D-Printed-i.143141292.8979347987",
+        "https://shopee.ph/Hamsaburou-and-Hamjirou-(Himouto-Umaru-Chan)-Mini-Figurine-i.143141292.9373125721",
+        "https://shopee.ph/Totoro-My-Neighbor-Totoro-(Studio-Ghibli)-Mini-Figurine-i.143141292.11514965434",
+        "https://shopee.ph/Usada-Pekora-Pekobank-(Hololive-JP)-3D-Printed-Coinbank-i.143141292.11736537129"
+    ]
+
+    
+}

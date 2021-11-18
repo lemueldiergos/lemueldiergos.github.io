@@ -1,0 +1,48 @@
+// Font Imports
+//@import url(//db.onlinewebfonts.com/c/2e6b0cce20abcaea6dc0bb24a75e58e9?family=CatCafe);
+// COLORS 
+$c1:    #a2c7fe;
+$c2:    #ffd1ff;
+$c3:    #f499dc;
+$c4:    #ff64b0;
+
+$c5:    #f6d55c;
+$c6:    #3caea3;
+$c7:    #20639b;
+$c7_5:  #ed553b;
+$c8:    wheat;
+
+$c9:    #cccccc;
+$c10:   #f0f0f0;
+$c10_1: #dddddd;
+$c11:   #999999;
+$c12:   #888888;
+$c13:   #636363;
+
+$lg1:  linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85));
+
+// Font Problems
+//Font Family 
+@font-face {
+    font-family: "catCafe";
+    src: url("../assets/font/CatCafe.ttf") format("opentype");
+}
+
+// Temporary border reference
+@mixin border_reference {border: 1px solid red;}
+@mixin border_reference_child {border: 1px solid blue;}
+
+//animation keys 
+@keyframes arrow_animation {
+    0% {
+        padding: 1% 0;
+    }
+    50% {
+        padding: 3% 0;
+    
+    }
+
+    100% {
+        padding: 1% 0;
+    }
+}

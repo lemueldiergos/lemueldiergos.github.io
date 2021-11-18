@@ -1,0 +1,106 @@
+/*
+    RESPONSIVE WEB CODE **
+
+*/
+@media (min-width: 575.99px) {
+    #nav_mobile {display: none !important;}
+    .mobile-form {display: none !important;}
+}
+@media (max-width: 575.98px) {
+    .medium-form {
+        display: none;
+    }
+
+    .child-3 {
+        height: 100% !important;
+        align-items: flex-end !important;
+        
+        ol {
+           padding: 0 !important;
+            li {
+                width: auto !important;
+               //  @include border_reference;
+                a {
+                    img {
+                        width: 100% !important; 
+                    }
+                }
+            }
+        }
+    }
+
+
+
+   #navigation_grandpa {display: none !important;}
+
+    #s1_2 {
+       // background-color: red !important;
+        flex-direction: column;
+    }
+
+    .s1_2_content {
+        width:85% !important;
+        height: 25% !important;
+    }
+
+    .s1_2_0 {
+      align-self: center !important;
+        img {
+            width: 40%;
+        }
+    }
+    .s1_2_1 {
+        align-self: center !important;
+        p {
+            letter-spacing: 2px;
+
+        }
+    }
+    .s1_2_2 {
+        align-self: center !important;
+        img {
+            width: 50%;
+        }
+    }
+
+
+
+
+
+    #s2_1 {
+        flex:none;
+        height: 100%;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        //@include border_reference;
+        #s2_1_1 {
+            //@include border_reference;
+            text-align: center;
+            width: 50% !important;
+            img {
+                //@include border_reference;
+                width: 100%;
+            }
+        }
+        #s2_1_2 {
+            width: 80% !important;
+            letter-spacing: 2px;
+            word-spacing: 3px;
+            //@include border_reference;
+            a {
+              
+                background-size: 100% 50%;
+               
+                padding: 10% !important;
+               
+                &:hover {
+                    background-size: 105% 55%;
+                }
+            }
+        }
+    }
+
+}
