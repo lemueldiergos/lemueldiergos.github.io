@@ -788,7 +788,8 @@ body {
 }
 
 .wrapper #s3 .s3_main .s3-body div {
-  padding: 100px;
+  cursor: pointer;
+  padding: 50px;
   margin: 0.2% 0.2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -813,6 +814,10 @@ body {
 
 .wrapper #s3 .s3_main .s3-body div:hover {
   color: white;
+}
+
+.wrapper #s3 .s3_main .s3-body div h3 {
+  font-size: medium;
 }
 
 .wrapper #s3 .s3_main .s3-body .box-1 {
@@ -865,6 +870,16 @@ body {
   background-size: 170%;
 }
 
+.wrapper #s3 .s3_main .s3-body .box-6 {
+  background-image: url("../assets/portfolio/6.JPG");
+}
+
+.wrapper #s3 .s3_main .s3-body .box-6:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url("../assets/portfolio/6.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../assets/portfolio/6.JPG");
+  background-size: 170%;
+}
+
 .wrapper footer {
   -webkit-box-flex: 0;
       -ms-flex: none;
@@ -889,6 +904,18 @@ body {
           align-items: center;
 }
 
+@media (max-width: 600px) {
+  .wrapper footer ol {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 601px) {
+  .wrapper footer ol {
+    width: 15vw;
+  }
+}
+
 .wrapper footer ol {
   list-style-type: none;
   display: -webkit-box;
@@ -899,7 +926,6 @@ body {
           justify-content: center;
   margin: 0;
   padding: 0;
-  width: 23vw;
 }
 
 .wrapper footer ol li {
@@ -912,7 +938,7 @@ body {
 }
 
 .wrapper footer ol li a img {
-  width: 55%;
+  width: 75%;
 }
 
 .wrapper footer ol li a img:hover {

@@ -463,8 +463,9 @@ body {scroll-behavior: smooth;}
       // max-width: 100%;
       
        div {
+         cursor: pointer;
         //  @include border_reference_child;
-          padding: 100px;
+          padding: 50px;
           margin: 0.2% 0.2%;
           display: flex;
           justify-content: center;
@@ -480,6 +481,9 @@ body {scroll-behavior: smooth;}
           height: 275px;
           &:hover {
               color: white;
+          }
+          h3 {
+              font-size: medium;
           }
        }
        /* BOX GRID POSITIONING
@@ -532,8 +536,15 @@ body {scroll-behavior: smooth;}
             background-size: 170%;
         }
         }
-       
-
+        .box-6 {
+            background-image: url("../assets/portfolio/6.JPG");
+            &:hover {
+                background-image: $lg1, 
+                url("../assets/portfolio/6.JPG");
+                background-size: 170%;
+        }
+        }
+        // END LINE
       }
     }
 
@@ -550,6 +561,10 @@ footer {
     justify-content: center;
     flex-flow: column;
     align-items: center;
+
+    @media (max-width: 600px) {ol {width: 50vw;}}
+    @media (min-width: 601px) {ol {width: 15vw;}}
+
     ol {
         //@include border_reference;
         list-style-type: none;
@@ -557,7 +572,7 @@ footer {
         justify-content: center;
         margin: 0;
         padding: 0;
-        width: 23vw;
+        
         li {
             padding: 5% 0%;
            // @include border_reference;
@@ -565,12 +580,13 @@ footer {
             a {
                 text-decoration: none;
                 img {
-                    width: 55%;
+                    width: 75%;
+                   // background-color: red;
                     &:hover {
                         filter: contrast(1000%);
                         filter: saturate(500%);
                     }
-                }
+                } 
             }
         }
     }
