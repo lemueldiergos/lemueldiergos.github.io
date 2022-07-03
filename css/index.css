@@ -880,6 +880,36 @@ body {
   background-size: 170%;
 }
 
+.wrapper #s3 .s3_main .s3-body .box-7 {
+  background-image: url("../assets/portfolio/c.jpg");
+}
+
+.wrapper #s3 .s3_main .s3-body .box-7:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url("../assets/portfolio/c.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../assets/portfolio/c.jpg");
+  background-size: 170%;
+}
+
+.wrapper #s3 .s3_main .s3-body .box-8 {
+  background-image: url("../assets/portfolio/c.jpg");
+}
+
+.wrapper #s3 .s3_main .s3-body .box-8:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url("../assets/portfolio/c.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../assets/portfolio/c.jpg");
+  background-size: 170%;
+}
+
+.wrapper #s3 .s3_main .s3-body .box-9 {
+  background-image: url("../assets/portfolio/c.jpg");
+}
+
+.wrapper #s3 .s3_main .s3-body .box-9:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url("../assets/portfolio/c.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../assets/portfolio/c.jpg");
+  background-size: 170%;
+}
+
 .wrapper footer {
   -webkit-box-flex: 0;
       -ms-flex: none;

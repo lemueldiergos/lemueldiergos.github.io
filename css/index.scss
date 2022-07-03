@@ -544,6 +544,30 @@ body {scroll-behavior: smooth;}
                 background-size: 170%;
         }
         }
+        .box-7 {
+            background-image: url("../assets/portfolio/c.jpg");
+            &:hover {
+                background-image: $lg1, 
+                url("../assets/portfolio/c.jpg");
+                background-size: 170%;
+        }
+        }
+        .box-8 {
+            background-image: url("../assets/portfolio/c.jpg");
+            &:hover {
+                background-image: $lg1, 
+                url("../assets/portfolio/c.jpg");
+                background-size: 170%;
+        }
+        }
+        .box-9 {
+            background-image: url("../assets/portfolio/c.jpg");
+            &:hover {
+                background-image: $lg1, 
+                url("../assets/portfolio/c.jpg");
+                background-size: 170%;
+        }
+        }
         // END LINE
       }
     }
