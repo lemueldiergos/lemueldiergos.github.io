@@ -11,7 +11,18 @@ var float_btn =             document.getElementsByClassName("floating-button")[0
     special_btn =           document.getElementsByClassName("special_nav_mobile"),
     nav_mobile_parent =     document.getElementById("nav_mobile");
 
+    var BOX_ME =            [
+                            document.getElementsByClassName("box-1")[0],
+                            document.getElementsByClassName("box-2")[0],
+                            document.getElementsByClassName("box-3")[0],
+                            document.getElementsByClassName("box-4")[0],
+                            document.getElementsByClassName("box-5")[0],
+                            document.getElementsByClassName("box-6")[0],
+                            document.getElementsByClassName("box-7")[0],
+                            document.getElementsByClassName("box-8")[0]    
+                            ];
 
+var dbw_var =               document.getElementsByClassName("dialogBox_work")[0];
 //  DIALOG BOX SCRIPT
 
 
@@ -139,7 +150,28 @@ var state_btn = true;
        }
    }
 
-  
+
+var dbw_close =()=> {
+    with(dbw_var.style) {
+       margin = "-200% 0";
+       background = "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))";
+    }
+}
+
+var dbw_open =(x)=> {
+    with(dbw_var.style) {
+        margin = "0 0";
+        background = " linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))";
+     }
+}
+
+//BOX FUNCTION (INDIVIDUAL CODING)
+
+// for(x = 0 ; x <= BOX_ME.length ; x++) {
+    // BOX_ME[x].addEventListener("click", function() {
+    //     alert();
+    // });
+// }
 
 /*
  *  TEMPORARY SCRIPTS 
