@@ -165,6 +165,52 @@ var dbw_open =(x)=> {
      }
 }
 
+
+
+//======================================================
+var nav_grandpa = document.getElementById("navigation_grandpa"),
+    nav_dad     = document.getElementById("navigation_dad");
+
+    
+
+
+
+var section = [
+    document.getElementById("s1"),
+    document.getElementById("s2"),
+    document.getElementById("s3"),
+    document.getElementById("s4"),
+    document.getElementById("s5")
+];
+
+
+
+
+var scrolling_anabler = (x)=> {
+
+    section[x].onscroll =()=> {
+        let scroll_dat = section[x].scrollTop;
+        console.log(scroll_dat);
+        if(scroll_dat >= 50 || scroll_dat != 0) {
+
+            with(nav_grandpa.style) {
+                backgroundColor = "rgba(255,255,255,0.95)";
+            } 
+        } else if(scroll_dat == 0) {
+            with(nav_grandpa.style) {
+                background = "none";
+            } 
+        }
+    } 
+
+    
+    
+}
+
+for(let x = 0 ; x <= 5 ; x++) {
+    scrolling_anabler(x);
+}
+
 //BOX FUNCTION (INDIVIDUAL CODING)
 
 // for(x = 0 ; x <= BOX_ME.length ; x++) {
